@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-	@GetMapping("/hello")
+	@GetMapping("/hallo")
 	//Antwortet auf localhost/hello GET request
 	//Browser GET /hello -> TomCat -> Spring Dispatcher -> HelloController
 	public String helloWorld() {
-		return "Hello World";
+		return "Hallo World";
 	}
 	
 }
